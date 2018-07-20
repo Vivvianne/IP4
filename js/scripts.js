@@ -11,3 +11,9 @@ function Player(turn){
     this.turn = turn;
     this.playername;
 }
+
+Player.prototype.rollone = function(){
+    if(this.roll === 1) {
+        this.tempscore = 0;
+    }
+}
