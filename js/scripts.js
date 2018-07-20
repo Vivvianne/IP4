@@ -37,3 +37,12 @@ Player.prototype.newGame = function(){
     this.totalscore = 0;
     this.playerName ="";
 }
+//User interface
+$(document).ready(function(){
+    $("button#start").click(function(event){
+        player1 = newPlayer(true);
+        player2 = newPlayer(false);
+        $("player-console").show();
+        $(".start-menu").hide();
+    })
+})
