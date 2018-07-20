@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+   <link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css">
+   <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+    <title>Pig Dice</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="img/pig-dice.png" alt="dice" width="150" height="150">
+            <div class="header-content">
+                <h1 game-name>Pig Dice</h1>
+
+            </div>
+        </header>
+        <div class="Player-control container">
+                <button id="new-game" class="btn">New Game</button>
+                
+            </div>
+            <button id="start" class="button">Start</button>
+        
+        
+        <div class="container">
+            <h3>Let's Play</h3>
+            <form>
+                    <div class="form-row">
+                        <form id="Player1">
+                            <div class="col-md-6">
+                                <label for="Player1">Player 1</label>
+                                <input type="text" class="form-control" placeholder="Enter your Name">
+                                <button id="Player1-roll" class="btn"> Roll</button>
+                                <button id="Player1-hold" class="btn">Hold</button>
+                                <h2 id="die-roll-1">Dice Roll</h2>
+                                <p id="round-total-1">Round Total:</p>
+                                <p id="total-score-1">Player's Score:</p>
+                            </div>
+
+                        </form>
+                        <form id="Player2">
+                                <div class="col-md-6">
+                                    <label for="Player2">Player 2</label>
+                                    <input type="text" class="form-control" placeholder="Enter your Name">
+                                    <button id="Player2-roll" class="btn"> Roll</button>
+                                <button id="Player2-hold" class="btn">Hold</button>
+                                <h2 id="die-roll-2">Dice Roll</h2>
+
+                                <p id="round-total-2">Round Total</p>
+                                <p id="total-score-2">Player's Score:</p>
+                                </div>
+                        </form>
+                    </div>
+                  </form>  
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    
+    
+</body>
+</html>

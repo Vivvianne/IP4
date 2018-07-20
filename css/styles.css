@@ -1,0 +1,9 @@
+/** body **/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: grey; 
+}
+.header {
+    background: lavender;
+    font-size: 24px;
+}
