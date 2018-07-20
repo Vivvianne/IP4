@@ -44,11 +44,28 @@ $(document).ready(function(){
         player2 = newPlayer(false);
         $("player-console").show();
         $(".start-menu").hide();
-    })
-})
-var player1 = $(".player1Name").val;
+
+        var player1 = $(".player1Name").val;
 $(."player1Name").text(player1Name);
 
 player1.playerName = player1;
 player2.playerNmae = player2;
+    })
+    $("button#newGame").click(function(event){
+        $(".player-console").hide();
+        clearValues();
+        player1.newGame();
+        player2.newGame();
+        $("#round-total-1").empty();
+        $("#total-score-1").empty();
+        $("#die-roll-1").empty();
+        $("#round-total-2").empty();
+        $("#total-score-2").empty();
+        $("#die-roll-2").empty();
+        
+
+    })
+})
+
+
 
