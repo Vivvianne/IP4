@@ -46,3 +46,9 @@ $(document).ready(function(){
         $(".start-menu").hide();
     })
 })
+var player1 = $(".player1Name").val;
+$(."player1Name").text(player1Name);
+
+player1.playerName = player1;
+player2.playerNmae = player2;
+
